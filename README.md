@@ -4,7 +4,7 @@ Welcome to my personal portfolio website! This project is designed to showcase m
 
 ## Demo
 
-You can see a live demo of the website [here](https://your-github-pages-url.com).
+You can see a live demo of the website [here](https://bijaya.vercel.app).
 
 ## Features
 
