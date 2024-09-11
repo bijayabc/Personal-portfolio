@@ -50,7 +50,7 @@ export const PROJECTS = [
       "A personal portfolio website built with React and Tailwind CSS to showcase my skills, projects, and contact information.",
     image: projectImage1,
     githubLink: "https://github.com/bijayabc/Personal-portfolio",
-    demoLink: "https://link/to/demo",
+    demoLink: "https://bijay.vercel.app",
   },
   {
     id: 2,
