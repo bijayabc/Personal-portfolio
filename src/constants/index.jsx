@@ -65,7 +65,7 @@ export const PROJECTS = [
     id: 3,
     name: "Personal Blog Site",
     description:
-      "A web application built using Node.js and Express. Allows users to create, read, and delete blogs. Uses MongoDB for database, EJS for templating, and HTML/CSS/JavaScript for the frontend.",
+      "A web application built using Node.js and Express. Allows users to create, read, and delete blogs. Uses MongoDB for database, EJS for templating, and HTML, CSS, JavaScript for the frontend.",
     image: projectImage3,
     githubLink: "https://github.com/bijayabc/Blogs",
     demoLink: "https://link/to/demo",
