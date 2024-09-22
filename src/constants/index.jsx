@@ -173,7 +173,7 @@ export const EDUCATION = [
   {
     degree: "Bachelor of Science in Computer Science",
     institution: "Caldwell University",
-    duration: "August 2024 - Present",
+    duration: "August 2022 - Present",
     description:
       "Minor in Data Analytics. Dean's list. Recipient of the Presidential Scholarship. Participation in various projects involving web development, algorithms, data structures and database management. Actively participating in university activities and seeking practical experience through internships and research opportunities.",
   },
