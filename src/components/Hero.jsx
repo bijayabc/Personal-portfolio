@@ -54,7 +54,7 @@ const Hero = () => {
             transition= {{ duration: 1 }}
         >
             <div className="flex justify-center">
-                <motion.img className="rounded-3xl" width={550} height={550} src={bijayImg} 
+                <motion.img className="rounded-3xl" width={450} height={450} src={bijayImg} 
                    initial={{ opacity: 0}}
                    animate={{ opacity: 1}} 
                 />
