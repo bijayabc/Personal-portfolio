@@ -56,7 +56,7 @@ export const PROJECTS = [
     id: 2,
     name: "CS50 Finance",
     description:
-      "A web application built using Flask in Python that allows users to manage a virtual portfolio of stocks. Uses SQLite for the database, HTML/CSS/JavaScript for the frontend and Yahoo Stock API.",
+      "A web application built using Flask in Python that allows users to manage a virtual portfolio of stocks. Uses SQLite for the database and Yahoo Stock API.",
     image: projectImage2,
     githubLink: "https://github.com/bijayabc/link/to/a blog that explains why there is no repo.",
     demoLink: "https://finance.cs50.net/login",
