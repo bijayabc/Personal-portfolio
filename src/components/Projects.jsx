@@ -52,7 +52,7 @@ const Projects = () => {
                     opacity-0 backdrop-blur-lg transition:opacity duration-500 group-hover:opacity-100">
 
                         <h3 className="font-bold mb-2 text-xl">{project.name}</h3>
-                        <p className="mb-12 p-4">{project.description}</p>
+                        <p className={`${project.id === 3 ? "mb-0" : "mb-12"} p-4`}>{project.description}</p>
 
                         {/* noopener and noreferrer to enhance security and privacy by preventing the new page from accessing the original page’s 
                         context and stopping referrer information from being sent. */}
