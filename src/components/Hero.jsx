@@ -1,5 +1,5 @@
 import { HERO } from "../constants/index"
-import bijayImg from "../assets/bijay3.jpeg"
+import bijayImg from "../assets/bijay.jpeg"
 import { motion } from "framer-motion"
 
 const heroVariants = {
