@@ -72,12 +72,12 @@ export const PROJECTS = [
   },
   {
     id: 4,
-    name: "Dumb Charades",
+    name: "Movie Charades",
     description:
-      "A web app for Dumb Charades built with HTML5, CSS3, Vanilla JavaScript where users choose categories and receive random titles to act out. Web3Forms for form handling",
+      "A web app for Charades built with HTML5, CSS3, Vanilla JavaScript where users choose film industries and receive random movie titles to act out. Web3Forms for form handling",
     image: projectImage4,
-    githubLink: "https://github.com/bijayabc/Dumb-Charades",
-    demoLink: "https://bijayabc.github.io/Dumb-Charades/",
+    githubLink: "https://github.com/bijayabc/movie-charades",
+    demoLink: "https://bijayabc.github.io/movie-charades/",
   },
   {
     id: 5,
