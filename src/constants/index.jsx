@@ -37,24 +37,15 @@ export const HERO = {
 export const PROJECTS = [
   {
     id: 1,
-    name: "Personal Portfolio",
+    name: "Twitter Clone",
     description:
-      "A personal portfolio website built with React and Tailwind CSS to showcase my skills, projects, and contact information.",
-    image: projectImage1,
-    githubLink: "https://github.com/bijayabc/Personal-portfolio",
-    demoLink: "https://bijay.vercel.app",
+      "A full-stack Twitter-inspired app built with Next.js, Tailwind CSS, Node.js, GraphQL, Redis, and PostgreSQL. Features include tweeting, following, timelines, and image uploads. Deployed on AWS with JWT authentication and S3 integration.",
+    image: projectImage5,
+    githubLink: "https://github.com/bijayabc/twitter-clone",
+    demoLink: "https://github.com/bijayabc/twitter-clone-server",
   },
   {
     id: 2,
-    name: "CS50 Finance",
-    description:
-      "A web application built using Flask in Python that allows users to manage a virtual portfolio of stocks. Uses SQLite for the database and Yahoo Stock API.",
-    image: projectImage2,
-    githubLink: "https://github.com/bijayabc/link/to/a blog that explains why there is no repo.",
-    demoLink: "https://finance.cs50.net/login",
-  },
-  {
-    id: 3,
     name: "Personal Blog Site",
     description:
       "A web application built using Node.js and Express. Allows users to create, read, and delete blogs. Uses MongoDB for database, EJS for templating. Demo might take a minute to load due to inactivity.",
@@ -63,7 +54,7 @@ export const PROJECTS = [
     demoLink: "https://bijayblogs.onrender.com",
   },
   {
-    id: 4,
+    id: 3,
     name: "Movie Charades",
     description:
       "A web app for Charades built with HTML5, CSS3, Vanilla JavaScript where users choose film industries and receive random movie titles to act out. Web3Forms for form handling",
@@ -72,13 +63,22 @@ export const PROJECTS = [
     demoLink: "https://bijayabc.github.io/movie-charades/",
   },
   {
-    id: 5,
-    name: "Twitter Clone",
+    id: 4,
+    name: "CS50 Finance",
     description:
-      "A full-stack Twitter-inspired app built with Next.js, Tailwind CSS, Node.js, GraphQL, Redis, and PostgreSQL. Features include tweeting, following, timelines, and image uploads. Deployed on AWS with JWT authentication and S3 integration.",
-    image: projectImage5,
-    githubLink: "https://github.com/bijayabc/twitter-clone",
-    demoLink: "https://github.com/bijayabc/twitter-clone-server",
+      "A web application built using Flask in Python that allows users to manage a virtual portfolio of stocks. Uses SQLite for the database and Yahoo Stock API.",
+    image: projectImage2,
+    githubLink: "https://github.com/bijayabc/link/to/a blog that explains why there is no repo.",
+    demoLink: "https://finance.cs50.net/login",
+  },
+  {
+    id: 5,
+    name: "Personal Portfolio",
+    description:
+      "A personal portfolio website built with React and Tailwind CSS to showcase my skills, projects, and contact information.",
+    image: projectImage1,
+    githubLink: "https://github.com/bijayabc/Personal-portfolio",
+    demoLink: "https://bijay.vercel.app",
   },
 ];
 
