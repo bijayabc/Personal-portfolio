@@ -81,12 +81,12 @@ export const PROJECTS = [
   },
   {
     id: 5,
-    name: "MarkNote",
+    name: "Twitter Clone",
     description:
-      "A web application built using React and Vite that allows users to create, edit, and manage notes. Utilizes Firebase for real-time data synchronization and Markdown formatting.",
+      "A full-stack Twitter-inspired app built with Next.js, Tailwind CSS, Node.js, GraphQL, Redis, and PostgreSQL. Features include tweeting, following, timelines, and image uploads. Deployed on AWS with JWT authentication and S3 integration.",
     image: projectImage5,
-    githubLink: "https://github.com/bijayabc/MarkNote",
-    demoLink: "https://bijayabc.github.io/MarkNote/",
+    githubLink: "https://github.com/bijayabc/twitter-clone",
+    demoLink: "https://github.com/bijayabc/twitter-clone-server",
   },
 ];
 
