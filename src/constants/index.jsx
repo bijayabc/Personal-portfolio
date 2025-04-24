@@ -13,18 +13,10 @@ import projectImage4 from "../assets/project4.jpeg";
 import projectImage5 from "../assets/project5.jpeg";
 import projectImage6 from "../assets/project6.jpeg";
 
-import { RiReactjsLine } from "react-icons/ri";
-import { SiMongodb } from "react-icons/si";
-import { FaNodeJs } from "react-icons/fa";
-import { DiSqllite } from "react-icons/di";
-import { SiFlask } from "react-icons/si";       
-import { SiExpress } from "react-icons/si";      
-import { FaHtml5 } from "react-icons/fa";        
-import { FaCss3Alt } from "react-icons/fa";      
-import { SiJavascript } from "react-icons/si";   
-import { SiC } from "react-icons/si";        
-import { SiTailwindcss } from "react-icons/si";
-import { SiPython } from "react-icons/si";
+import { RiReactjsLine, RiNextjsLine } from "react-icons/ri";
+import { SiMongodb, SiPostgresql, SiGraphql, SiJavascript, SiFlask, SiExpress, SiC, SiTailwindcss, SiPython } from "react-icons/si";
+import { FaNodeJs, FaHtml5, FaCss3Alt } from "react-icons/fa";
+import { DiSqllite, DiRedis } from "react-icons/di";
 
 export const NAVIGATION_LINKS = [
   { label: "Projects", href: "#projects" },
@@ -100,57 +92,77 @@ export const SKILLS = [
   {
     icon: <RiReactjsLine className="text-4xl text-cyan-400 lg:text-5xl" />,
     name: "React",
+    experience: "2+ year",
+  },
+  {
+    icon: <RiNextjsLine className="text-4xl text-white bg-black rounded-full lg:text-5xl" />,
+    name: "NextJS",
     experience: "1+ year",
   },
   {
     icon: <SiMongodb className="text-4xl text-green-600 lg:text-5xl" />,
     name: "MongoDB",
+    experience: "2+ year",
+  },
+  {
+    icon: <SiPostgresql className="text-4xl text-[#3e6389] lg:text-5xl" />,
+    name: "PostgreSQL",
     experience: "1+ year",
   },
   {
     icon: <FaNodeJs className="text-4xl text-green-600 lg:text-5xl" />,
     name: "Node.js",
-    experience: "1+ year",
+    experience: "2+ year",
   },
   {
     icon: <SiExpress className="text-4xl text-gray-700 lg:text-5xl" />,
     name: "Express",
+    experience: "2+ year",
+  },
+  {
+    icon: <SiGraphql className="text-4xl text-[#cc44a2] lg:text-5xl" />,
+    name: "GraphQL",
     experience: "1+ year",
   },
   {
     icon: <SiPython className="text-4xl text-yellow-400 lg:text-5xl" />,
     name: "Python",
-    experience: "2+ year",
+    experience: "3+ year",
   },
   {
     icon: <DiSqllite className="text-4xl text-blue-400 lg:text-5xl" />,
     name: "SQLite",
-    experience: "1+ year",
+    experience: "2+ year",
   },
   {
     icon: <SiFlask className="text-4xl text-white lg:text-5xl" />,
     name: "Flask",
+    experience: "2+ year",
+  },
+  {
+    icon: <DiRedis className="text-4xl text-red-600 lg:text-5xl" />,
+    name: "Redis",
     experience: "1+ year",
   },
   {
     icon: <FaHtml5 className="text-4xl text-orange-500 lg:text-5xl" />,
     name: "HTML",
-    experience: "3+ year",
+    experience: "4+ year",
   },
   {
     icon: <FaCss3Alt className="text-4xl text-blue-500 lg:text-5xl" />,
     name: "CSS",
-    experience: "2+ year",
+    experience: "4+ year",
   },
   {
     icon: <SiTailwindcss className="text-4xl text-teal-500 lg:text-5xl" />,
     name: "Tailwind",
-    experience: "1+ year",
+    experience: "2+ year",
   },
   {
     icon: <SiJavascript className="text-4xl text-yellow-500 lg:text-5xl" />,
     name: "Javascript",
-    experience: "2+ year",
+    experience: "3+ year",
   },
   {
     icon: <SiC className="text-4xl text-blue-600 lg:text-5xl" />,
